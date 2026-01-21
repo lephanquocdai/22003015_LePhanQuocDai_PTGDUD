@@ -1,0 +1,33 @@
+.product-card {
+    border: 1px solid #050404;
+    border-radius: 8px;
+    padding: 16px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.product-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.product-name{
+    font-size: 1.2em;
+    margin: 12px 0;
+    color: white;
+}
+.product-price {
+    font-size: 1.1em;
+    color: #27ae60;
+    margin-bottom: 16px;
+}
+.add-to-cart-button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.add-to-cart-button:hover {
+    background-color: #219150;
+}
