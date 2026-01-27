@@ -1,0 +1,29 @@
+.alert {
+  padding: 12px;
+  margin: 10px 0;
+  color: white;
+  position: relative;
+  transition: opacity 0.3s;
+}
+
+/* success */
+.alert-success {
+  background-color: #198754;
+}
+
+/* warning */
+.alert-warning {
+  background-color: #ffc107;
+  color: black;
+}
+
+/* error */
+.alert-error {
+  background-color: #dc3545;
+}
+
+.close {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
