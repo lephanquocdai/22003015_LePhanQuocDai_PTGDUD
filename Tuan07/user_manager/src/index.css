@@ -1,0 +1,118 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 15px 30px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  border-radius: 0 0 12px 12px;
+  margin-bottom: 30px;
+}
+
+.navbar h2 {
+  margin: 0;
+  color: #3b82f6;
+}
+
+.auth-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.welcome {
+  font-size: 1rem;
+  color: #4b5563;
+}
+
+.main-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+@media (max-width: 600px) {
+  .main-content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.profile-card, .info-box {
+  background: white;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.03);
+}
+
+.profile-card h3, .info-box h3 {
+  margin-top: 0;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 15px;
+  color: #1f2937;
+}
+
+.highlight {
+  font-weight: bold;
+  color: #3b82f6;
+  background: #eff6ff;
+  padding: 4px 8px;
+  border-radius: 6px;
+}
+
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s;
+}
+
+.login-btn {
+  background-color: #3b82f6;
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: #2563eb;
+  transform: translateY(-1px);
+}
+
+.logout-btn {
+  background-color: #ef4444;
+  color: white;
+}
+
+.logout-btn:hover {
+  background-color: #dc2626;
+  transform: translateY(-1px);
+}
+
+.user-info p {
+  margin: 15px 0;
+}
+
+.not-logged-in {
+  color: #6b7280;
+  font-style: italic;
+  text-align: center;
+  margin-top: 30px;
+}
